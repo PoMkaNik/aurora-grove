@@ -1,1 +1,7 @@
+/// import variables where default settings
+/// of bootstrap were overwritten
+@import 'abstracts/variables';
+/// import bootstrap
 @import './vendor/bootstrap-4.5.3/scss/bootstrap';
+/// import other project scss files
+@import 'pages/home';
